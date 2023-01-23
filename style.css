@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.main-header{
+    height: 525px;
+    width: 100vw;
+    background-image: url("/OldMunkRum-1_2000x500_acf_cropped_2000x500_acf_cropped.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.logonav-div{
+    display: flex;
+}
+.logo-div{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.nav-div{
+    height: 300px;
+    width: 50%;
+    padding-right: 10%;
+   
+}
+.heading-class{
+    max-width: 500px;
+    font-family: "Droid Serif",Serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10%;
+}
+.navbaritem{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    font-family: "Droid Serif",Serif;
+    margin-top: 45px;
+    margin-right: 3%;
+}
+.navbar-outer{
+    display: flex;
+}
+.wine-img{
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1276px) {
+    .navbar-outer{
+        display: block;
+        float: right;
+    }
+  }
+  @media (max-width: 800px) {
+    .main-header{
+        background-image: url('/black-img.jpg');
+    }
+    .nav-div{
+        width: 0;
+        display: none;
+    }
+    .logo-div{
+        width: 100%;
+    }    
+    .heading-outer{
+        text-align: center;
+    }
+    .wine-img{
+       margin-left: 30%;
+       margin-bottom: 10%;
+    }
+    .footer-dreamo{
+    /* position: relative;
+    right: 35%; */
+        
+    }
+    .footer-head{
+        font-size: 10px;
+    }
+  }
+.nav-btn{
+    width: 90%;
+    height: 70px;
+    background-color: black;
+    border: 0.75px solid white;
+    font-family: "Droid Serif",Serif;
+    color: white;
+    margin-left: 5%;
+}
+.btn-div{
+    text-align: center;
+}
+@media (min-width: 800px) {
+    .btn-div{
+        display: none;
+    }
+  }
+
+.nav-toggle-div{
+    position: absolute;
+    top:1px;
+    background-color: rgba(0, 0, 0, 0.695);
+    width: 100%;
+    height: 524px;
+}
+.nav-toggle-div-inner{
+    text-align: center;
+    padding-top: 140px;
+}
+.navbaritem-small{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    font-family: "Droid Serif",Serif;
+    margin-top: 20px;
+}
+.toggle-close-btn{
+    color: red;
+    float: right;
+    margin-right: 7%;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.toggle-close-btn:hover{
+    opacity: 0.9;
+    background-color: lightgray;
+}
+.content-outer{
+    margin-top: 70px;
+    
+}
+.content-pr{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Droid Serif",Serif;
+    font-size: 17px;
+    text-decoration: none solid rgb(255, 255, 255);
+
+}
+.heading-outer{
+    width: 100%;
+   
+}
+.footer-outer{
+    height: 230px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.footer-head{
+    font-family: "Droid Serif",Serif;
+    font-size: 17px;
+    text-align: center;
+   
+    padding-top: 50px;
+
+}
+.footer-dreamo{
+    float: right;
+    margin-right: 10%;
+    font-size: 8px;
+    font-weight: 700;
+}
